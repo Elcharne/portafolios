@@ -1,0 +1,1592 @@
+#Index{
+    background-color: grey;
+    
+}
+#Iluminacion{
+    background-color: grey;
+    height: 3100px;
+}
+#Dibujo{
+    background-color: grey;
+    height: 3800px;
+    }
+
+#Photo{
+  background-color: grey;
+    height: 5200px;
+    } 
+
+#Modelaje{
+  background-color: grey;
+    height: 3500px;  
+}
+
+#Processing{
+    background-color: grey;
+    height: 1200px; 
+}
+
+#Texture{
+  background-color: grey;
+    height: 2200px;   
+}
+
+#Html{
+background-color: grey;
+  height: 4100px;  
+}
+    
+
+.yo{
+    font-size: 20px;
+    text-align: right;
+    padding-left: 91%;
+    margin-top: -3%;
+    position: absolute;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu{
+    font-size: 20px;
+    text-align: right;
+    padding-left: 2%;
+    margin-top: -3%;
+    position: absolute;
+    color: aliceblue;
+  
+}
+
+.Portada{
+    background-color: black;
+    position:absolute;
+    width: 99%;
+    height: 15%;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.info{
+    width: 99%;
+    height: 15%;
+    color: white;
+    margin-left: 2%;
+    font-size: 20px;
+    margin-top: 10%;
+    position: absolute;
+}
+
+/*HTML*/
+
+.Programacion_Html{
+    
+    background-image: url(media/portada/html_logo2.png);
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+    margin-top: 20%;
+    position: fixed;
+    transition: 1s;
+    transform: rotate(-20deg);
+}
+.Html{
+ background-color: blue;
+    width: 150px;
+    height: 0px;
+    font-size: 0px;
+    margin-top: 105%;
+     transition: 1s;
+    text-align: center;
+}
+.Programacion_Html:hover .Html{
+    height: 50px;
+    font-size: 20px;
+   
+}
+.Programacion_Html:hover{
+    animation: HTML 1.5s ease alternate infinite;
+    animation-timing-function:linear;
+}
+@keyframes HTML {
+    0% {transform: rotate(-20deg) scale(1);}
+    100% {transform: rotate(-20deg) scale(1.1);}
+}
+
+.html_1{
+    background-image: url(media/HTML/Energies.jpg);
+    width: 1024px;
+    height: 768px;
+    margin-left: 25%;
+    margin-top: 10%;
+   position: absolute;
+}
+.texe1{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 76%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.html_1:hover .texe1{
+    height: 5%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.html_2{
+    background-image: url(media/HTML/museo.jpg);
+    width: 1024px;
+    height: 768px;
+    margin-left: 25%;
+    margin-top: 56%;
+    position: absolute;
+    
+}
+.texe2{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 76%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.html_2:hover .texe2{
+    height: 5%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.html_3{
+    background-image: url(media/HTML/Historia.jpg);
+    width: 1024px;
+    height: 768px;
+    margin-left: 25%;
+    margin-top: 102%;
+   position: absolute;
+}
+.texe3{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 76%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.html_3:hover .texe3{
+    height: 5%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.html_4{
+    background-image: url(media/HTML/vinow.jpg);
+    width: 1394px;
+    height: 1111px;
+    margin-left: 15%;
+    margin-top: 148%;
+    position: absolute;
+    
+}
+.texe4{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 80%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.html_4:hover .texe4{
+    height: 3%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+/*Processing*/
+
+.Programacion_Procesing{
+    
+    background-image: url(media/portada/processing-logo.png);
+    width: 150px;
+    height: 150px;
+    margin-left: 60%;
+    margin-top: 30%;
+    position: fixed;
+    transition: 1s;
+    transform: rotate(20deg);
+}
+.Processing{
+ background-color: blue;
+    width: 150px;
+    height: 0px;
+    font-size: 0px;
+    margin-top: 105%;
+     transition: 1s;
+    text-align: center;
+}
+.Programacion_Procesing:hover .Processing{
+    height: 50px;
+    font-size: 20px;
+    
+}
+.Programacion_Procesing:hover{
+    animation: PROCE 1.5s ease alternate infinite;
+    animation-timing-function:linear;
+}
+@keyframes PROCE {
+    0% {transform: rotate(20deg) scale(1);}
+    100% {transform: rotate(20deg) scale(1.1);}
+}
+
+.Pong{ 
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10%;
+margin-left: 37%;
+}
+.Space{
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30%;
+margin-left: 25%;
+}
+
+/*Animacion 2D*/
+
+.Animacion_2D{
+    
+    background-image: url(media/portada/pu%C3%B1etazo.gif);
+    width: 150px;
+    height: 150px;
+    margin-left: 42%;
+    margin-top: 12%;
+    position: fixed;
+    transition: 1s;
+    transform: rotate(-12deg);
+}
+.DosD{
+ background-color: blue;
+    width: 150px;
+    height: 0px;
+    font-size: 0px;
+    margin-top: 105%;
+     transition: 1s;
+    text-align: center;
+}
+.Animacion_2D:hover .DosD{
+    height: 50px;
+    font-size: 20px;
+    
+}
+.Animacion_2D:hover{
+    animation: Dos 1.5s ease alternate infinite;
+    animation-timing-function:linear;
+}
+@keyframes Dos {
+    0% {transform: rotate(-12deg) scale(1);}
+    100% {transform: rotate(-12deg) scale(1.1);}
+}
+
+.video{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+}
+.Ivideo1{
+    width: 50%;
+    margin-left: 25%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 40px;
+}
+.video2{
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+/*Animacion 3D*/
+
+.Animacion_3D{
+    
+    background-image: url(media/portada/escena-accio.gif);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin-left: 79%;
+    margin-top: 16%;
+    position: fixed;
+    transition: 1s;
+    transform: rotate(15deg);
+}
+.TresD{
+ background-color: blue;
+    width: 150px;
+    height: 0px;
+    font-size: 0px;
+    margin-top: 105%;
+     transition: 1s;
+    text-align: center;
+}
+.Animacion_3D:hover .TresD{
+    height: 50px;
+    font-size: 20px;
+  
+}
+.Animacion_3D:hover{
+    animation: Tres 1.5s ease alternate infinite;
+    animation-timing-function:linear;
+}
+@keyframes Tres {
+    0% {transform: rotate(15deg) scale(1);}
+    100% {transform: rotate(15deg) scale(1.1);}
+}
+
+
+/*Iluminacion*/
+.Iluminacion{
+    
+    background-image: url(media/portada/ilumin.jpg);
+    width: 150px;
+    height: 150px;
+    margin-left: 3%;
+    margin-top: 29%;
+    position: fixed;
+    transition: 1s;
+    transform: rotate(5deg);
+}
+.Ilumi{
+ background-color: white;
+    width: 150px;
+    height: 0px;
+    font-size: 0px;
+    margin-top: 105%;
+     transition: 1s;
+    text-align: center;
+}
+.Iluminacion:hover .Ilumi{
+    height: 50px;
+    font-size: 20px;}
+.Iluminacion:hover{
+    animation: Ilumi 1.5s ease alternate infinite;
+    animation-timing-function:linear;
+}
+@keyframes Ilumi {
+    0% {transform: rotate(5deg) scale(1);}
+    100% {transform: rotate(5deg) scale(1.1);}
+}
+
+.img1{
+    background-image: url(media/iluminacion/buda_1.png);
+    width: 470px;
+    height: 708px;
+    margin-left: 10%;
+    margin-top: 10%;
+    position: absolute;
+}
+.texto{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 155%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.img1:hover .texto{
+    height: 5%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.img2{
+    background-image: url(media/iluminacion/espacio.png);
+    width: 960px;
+    height: 540px;
+    margin-left: 40%;
+    margin-top: 10%;
+   position: absolute;
+}
+.texto2{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 58%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.img2:hover .texto2{
+    height: 6%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.img3{
+    background-image: url(media/iluminacion/habitacion_dia_1.png);
+    width: 960px;
+    height: 540px;
+    margin-left: 40%;
+    margin-top: 43%;
+    position: absolute;
+    
+}
+.texto3{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 58%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.img3:hover .texto3{
+    height: 6%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.img4{
+    background-image: url(media/iluminacion/habitacion_noche_1.png);
+    width: 960px;
+    height: 540px;
+    margin-left: 40%;
+    margin-top: 76%;
+   position: absolute;
+}
+.texto4{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 58%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.img4:hover .texto4{
+    height: 6%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.img5{
+    background-image: url(media/iluminacion/volum.png);
+    width: 960px;
+    height: 540px;
+    margin-left: 40%;
+    margin-top: 109%;
+    position: absolute;
+    
+}
+.texto5{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 58%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.img5:hover .texto5{
+    height: 6%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.img6{
+    background-image: url(media/iluminacion/barriles.png);
+    width: 640px;
+    height: 360px;
+    margin-left: 3%;
+    margin-top: 52%;
+    position: absolute;
+    
+}
+.texto6{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 58%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.img6:hover .texto6{
+    height: 10%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.img7{
+    background-image: url(media/iluminacion/naranjas0.png);
+    width: 480px;
+    height: 270px;
+    margin-left: 9%;
+    margin-top: 76%;
+    position: absolute;
+    
+}
+.texto7{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 58%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.img7:hover .texto7{
+    height: 10%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.img8{
+    background-image: url(media/iluminacion/buda_6.png);
+     width: 470px;
+    height: 708px;
+    margin-left: 10%;
+    margin-top: 94%;
+    position: absolute;
+    
+}
+.texto8{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 155%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.img8:hover .texto8{
+    height: 5%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.img9{
+    background-image: url(media/iluminacion/llum_copes.png);
+     width: 1267px;
+    height: 238px;
+    margin-left: 15%;
+    margin-top: 142%;
+    position: absolute;
+    
+}
+.texto9{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 20%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.img9:hover .texto9{
+    height: 14%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+
+
+
+/*Rigging*/
+
+.Rigging{
+    
+    background-image: url(media/portada/Rigging.jpg);    
+    width: 150px;
+    height: 150px;
+    margin-left: 27%;
+    margin-top: 35%;
+    position: fixed;
+    transition: 1s;
+    transform: rotate(-5deg);
+}
+.Skel{
+ background-color: blue;
+    width: 150px;
+    height: 0px;
+    font-size: 0px;
+    margin-top: 105%;
+     transition: 1s;
+    text-align: center;
+}
+.Rigging:hover .Skel{
+    height: 50px;
+    font-size: 20px;
+    
+}
+.Rigging:hover{
+    animation: Skel 1.5s ease alternate infinite;
+    animation-timing-function:linear;
+}
+@keyframes Skel {
+    0% {transform: rotate(-5deg) scale(1);}
+    100% {transform: rotate(-5deg) scale(1.1);}
+}
+
+.rig1{
+background-image: url(media/rigging/Rigg_coche.jpg);
+width: 1184px;
+height: 718px;
+margin-top: 10%;
+margin-left: 18%;
+position: absolute;
+}
+.textus1{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 61%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.rig1:hover .textus1{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.rig2{
+background-image: url(media/rigging/Rigg_ciclope.jpg);
+width: 1184px;
+height: 718px;
+margin-top: 52%;
+margin-left: 18%;
+position: absolute;
+}
+.textus2{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 61%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.rig2:hover .textus2{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+/*Modelaje*/
+
+.Modelaje{
+    
+    background-image: url(media/portada/modelatje.jpg);
+    width: 150px;
+    height: 150px;
+    margin-left: 9%;
+    margin-top: 12%;
+    position: fixed;
+    transition: 1s;
+    transform: rotate(17deg);
+}
+.Mode{
+ background-color: blue;
+    width: 150px;
+    height: 0px;
+    font-size: 0px;
+    margin-top: 105%;
+     transition: 1s;
+    text-align: center;
+}
+.Modelaje:hover .Mode{
+    height: 50px;
+    font-size: 20px;
+}
+.Modelaje:hover{
+    animation: Mode 1.5s ease alternate infinite;
+    animation-timing-function:linear;
+}
+@keyframes Mode {
+    0% {transform: rotate(17deg) scale(1);}
+    100% {transform: rotate(17deg) scale(1.1);}
+}
+
+.model1{
+background-image: url(media/modelaje/maquina2.jpg);
+width: 1184px;
+height: 718px;
+margin-top: 10%;
+margin-left: 18%;
+position: absolute;
+}
+.textos1{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 61%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.model1:hover .textos1{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.model2{
+background-image: url(media/modelaje/maquina.jpg);
+width: 1184px;
+height: 718px;
+margin-top: 52%;
+margin-left: 18%;
+position: absolute;
+}
+.textos2{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 61%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.model2:hover .textos2{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.model3{
+background-image: url(media/modelaje/coche2.jpg);
+width: 1184px;
+height: 718px;
+margin-top: 94%;
+margin-left: 18%;
+position: absolute;
+}
+.textos3{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 61%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.model3:hover .textos3{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.model4{
+background-image: url(media/modelaje/coche.jpg);
+width: 1184px;
+height: 718px;
+margin-top: 136%;
+margin-left: 18%;
+position: absolute;
+}
+.textos4{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 61%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.model4:hover .textos4{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+
+
+/*Texturizacion*/
+
+.Texturizacion{
+    
+    background-image: url(media/portada/texture.jpg);
+    
+    width: 150px;
+    height: 150px;
+    margin-left: 79%;
+    margin-top: 35%;
+    position: fixed;
+    transition: 1s;
+    transform: rotate(-13deg);
+}
+.Texture{
+ background-color: blue;
+    width: 150px;
+    height: 0px;
+    font-size: 0px;
+    margin-top: 105%;
+     transition: 1s;
+    text-align: center;
+}
+.Texturizacion:hover .Texture{
+    height: 50px;
+    font-size: 20px;
+}
+.Texturizacion:hover{
+    animation: Texture 1.5s ease alternate infinite;
+    animation-timing-function:linear;
+}
+@keyframes Texture {
+    0% {transform: rotate(-13deg) scale(1);}
+    100% {transform: rotate(-13deg) scale(1.1);}
+}
+
+.texture1{
+    background-image: url(media/texturizacion/casa.jpg);
+    width: 640px;
+    height: 480px;
+    margin-left: 5%;
+    margin-top: 10%;
+    position: absolute;
+}
+.tex1{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 76%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.texture1:hover .tex1{
+    height: 5%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.texture2{
+    background-image: url(media/texturizacion/cofre.jpg);
+    width: 640px;
+    height: 480px;
+    margin-left: 55%;
+    margin-top: 10%;
+   position: absolute;
+}
+.tex2{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 76%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.texture2:hover .tex2{
+    height: 6%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.texture3{
+    background-image: url(media/texturizacion/contenedor.jpg);
+    width: 640px;
+    height: 480px;
+    margin-left: 5%;
+    margin-top: 40%;
+    position: absolute;
+    
+}
+.tex3{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 76%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.texture3:hover .tex3{
+    height: 6%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.texture4{
+    background-image: url(media/texturizacion/pelo.jpg);
+    width: 640px;
+    height: 480px;
+    margin-left: 55%;
+    margin-top: 40%;
+   position: absolute;
+}
+.tex4{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 76%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.texture4:hover .tex4{
+    height: 6%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+.texture5{
+    background-image: url(media/texturizacion/moto.jpg);
+    width: 1280px;
+    height: 720px;
+    margin-left: 15%;
+    margin-top: 70%;
+    position: absolute;
+    
+}
+.tex5{
+    background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 58%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;
+    
+}
+.texture5:hover .tex5{
+    height: 6%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+    
+}
+
+/*Photoshop*/
+
+.Photoshop{
+    
+    background-image: url(media/portada/edicio.jpg);
+    width: 150px;
+    height: 150px;
+    margin-left: 46%;
+    margin-top: 37%;
+    position: fixed;
+    transition: 1s;
+    transform: rotate(-15deg);
+}
+.Photo{
+ background-color: blue;
+    width: 150px;
+    height: 0px;
+    font-size: 0px;
+    margin-top: 105%;
+     transition: 1s;
+    text-align: center;
+}
+.Photoshop:hover .Photo{
+    height: 50px;
+    font-size: 20px;
+}
+.Photoshop:hover{
+    animation: pho 1.5s ease alternate infinite;
+    animation-timing-function:linear;
+}
+@keyframes pho {
+    0% {transform: rotate(-15deg) scale(1);}
+    100% {transform: rotate(-15deg) scale(1.1);}
+}
+
+.pho1{
+background-image: url(media/photoshop/graffity02.jpg);
+width: 746px;
+height: 504px;
+margin-top: 10%;
+margin-left: 5%;
+position: absolute;
+}
+.texts1{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 69%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.pho1:hover .texts1{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.pho2{
+background-image: url(media/photoshop/grafiti2.jpg);
+width: 756px;
+height: 504px;
+margin-top: 10%;
+margin-left: 55%;
+position: absolute;
+}
+.texts2{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 68%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.pho2:hover .texts2{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.pho3{
+background-image: url(media/photoshop/paisaje-de-flores2.jpg);
+width: 672px;
+height: 504px;
+margin-top: 42%;
+margin-left: 5%;
+position: absolute;
+}
+.texts3{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 76%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.pho3:hover .texts3{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.pho4{
+background-image: url(media/photoshop/paisaje2.png);
+width: 747px;
+height: 528px;
+margin-top: 42%;
+margin-left: 55%;
+position: absolute;
+}
+.texts4{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 72%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.pho4:hover .texts4{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.pho5{
+background-image: url(media/photoshop/mujer_foto_retocada2.jpg);
+width: 552px;
+height: 800px;
+margin-top: 76%;
+margin-left: 55%;
+position: absolute;
+}
+.texts5{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 146%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.pho5:hover .texts5{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.pho6{
+background-image: url(media/photoshop/imagen_a_modificar2.jpg);
+width: 552px;
+height: 800px;
+margin-top: 76%;
+margin-left: 11.3%;
+position: absolute;
+}
+.texts6{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 146%;
+    transition: 1s;
+    height: 0%;
+    width: 100%;
+    padding-top: 0px; 
+    position: absolute; 
+}
+.pho6:hover .texts6{
+   height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.pho7{
+background-image: url(media/photoshop/basketball2.jpg);
+width: 672px;
+height: 447px;
+margin-top: 123%;
+margin-left: 5%;
+position: absolute;
+}
+.texts7{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 68%;
+    transition: 1s;
+    height: 0%;
+    width: 100%;
+    padding-top: 0px; 
+    position: absolute;  
+}
+.pho7:hover .texts7{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+}
+
+.pho8{
+background-image: url(media/photoshop/tierra2.jpg);
+width: 672px;
+height: 447px;
+margin-top: 123%;
+margin-left: 55%;
+position: absolute;
+}
+.texts8{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 68%;
+    transition: 1s;
+    height: 0%;
+    width: 100%;
+    padding-top: 0px; 
+     
+}
+.pho8:hover .texts8{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.pho9{
+background-image: url(media/photoshop/tierra_agarada2.jpg);
+width: 672px;
+height: 447px;
+margin-top: 152%;
+margin-left: 30%;
+position: absolute;
+}
+.texts9{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 68%;
+    transition: 1s;
+    height: 0%;
+    width: 100%;
+    padding-top: 0px; 
+    position: absolute;
+}
+.pho9:hover .texts9{
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+}
+
+.pho10{
+background-image: url(media/photoshop/fotos_usadas2.jpg);
+width: 729px;
+height: 698px;
+margin-top: 180%;
+margin-left: 25%;
+position: absolute;
+}
+.texts10{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 97%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.pho10:hover .texts10{
+   height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+}
+
+.pho11{
+background-image: url(media/photoshop/dona_modificada2.jpg);
+width: 536px;
+height: 800px;
+margin-top: 224%;
+margin-left: 30%;
+position: absolute;
+}
+.texts11{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 150%;
+    transition: 1s;
+    height: 0%;
+    width: 100%;
+    padding-top: 0px;  
+}
+.pho11:hover .texts11{
+    height: 30px;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+}
+
+
+
+
+
+/*Dibujo y Diseño*/   
+.Dibuix{
+    
+    background-image: url(media/portada/dise%C3%B1o.jpg);
+    width: 150px;
+    height: 150px;
+    margin-left: 59%;
+    margin-top: 14%;
+    position: fixed;
+    transition: 1s;
+    transform: rotate(-1deg);
+}
+.Dibujo{
+ background-color: blue;
+    width: 150px;
+    height: 0px;
+    font-size: 0px;
+    margin-top: 105%;
+    transition: 1s;
+    text-align: center;
+}
+.Dibuix:hover .Dibujo{
+    height: 50px;
+    font-size: 20px;
+}
+.Dibuix:hover{
+    animation: dibu 1.5s ease alternate infinite;
+    animation-timing-function:linear;
+}
+@keyframes dibu {
+    0% {transform: rotate(-1deg) scale(1);}
+    100% {transform: rotate(-1deg) scale(1.1);}
+}
+
+.dis1{
+background-image: url(media/diseno/1serpiente.png);
+width: 478px;
+height: 268px;
+margin-top: 10%;
+margin-left: 5%;
+position: absolute;
+}
+.text1{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 60%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.dis1:hover .text1{
+    height: 14%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.dis2{
+background-image: url(media/diseno/2colores.png);
+width: 478px;
+height: 268px;
+margin-top: 10%;
+margin-left: 35%;
+position: absolute;
+}
+.text2{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 60%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.dis2:hover .text2{
+    height: 14%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.dis3{
+background-image: url(media/diseno/3posiciones.png);
+width: 478px;
+height: 268px;
+margin-top: 10%;
+margin-left: 65%;
+position: absolute;
+}
+.text3{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 60%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.dis3:hover .text3{
+    height: 14%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.dis4{
+background-image: url(media/diseno/4expresiones.png);
+width: 478px;
+height: 268px;
+margin-top: 30%;
+margin-left: 20%;
+position: absolute;
+}
+.text4{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 60%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.dis4:hover .text4{
+    height: 14%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.dis5{
+background-image: url(media/diseno/5perspectiva.png);
+width: 478px;
+height: 268px;
+margin-top: 30%;
+margin-left: 50%;
+position: absolute;
+}
+.text5{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 60%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.dis5:hover .text5{
+    height: 14%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.dis6{
+background-image: url(media/diseno/emoticonos2.jpg);
+width: 415px;
+height: 646px;
+margin-top: 50%;
+margin-left: 20%;
+position: absolute;
+}
+.text6{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 160%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.dis6:hover .text6{
+    height: 6%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.dis7{
+background-image: url(media/diseno/persona_cencera.jpg);
+width: 347px;
+height: 646px;
+margin-top: 50%;
+margin-left: 60%;
+position: absolute;
+}
+.text7{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 190%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.dis7:hover .text7{
+    height: 6%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.dis8{
+background-image: url(media/diseno/logo_modificado2.jpg);
+width: 1103px;
+height: 768px;
+margin-top: 90%;
+margin-left: 20%;
+position: absolute;
+}
+.text8{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 70%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.dis8:hover .text8{
+    height: 5%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px; 
+}
+
+.dis9{
+background-image: url(media/diseno/todas_las_texturas.jpg);
+width: 1024px;
+height: 1024px;
+margin-top: 137%;
+margin-left: 20%;
+position: absolute;
+}
+.text9{
+  background-color: aliceblue;
+    font-size: 0px;
+    text-align: center;
+    margin-top: 101%;
+    transition: 1s;
+    height: 0%;
+    padding-top: 0px;  
+}
+.dis9:hover .text9{
+    height: 3%;
+    font-size: 20px;
+    transition: 1s;
+    padding-top: 10px;
+}
+
+
+
+
