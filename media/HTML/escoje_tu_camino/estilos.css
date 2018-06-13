@@ -1,0 +1,137 @@
+.paginas{
+    background-image: url("media/a.png");
+   
+}
+
+.portada{
+    background-image: url("media/PORTADA.png");
+   
+}
+
+
+.historia{
+font-size: 42px;
+color:#fff1a0;
+position: relative;
+top:580px;
+left: 422px;
+padding: 10px;
+text-align: center;
+margin: 0px auto;
+text-decoration: none;
+    
+}
+
+.jorge{
+    display: block;
+    margin: auto;
+    height: 300px;
+    top: 60px;
+    position: relative;
+    border-radius: 100px;
+}
+.return{  
+  text-align: center;
+font-size: 17px;
+color:#D4D5D4;
+margin-top: -10px;
+margin-left: 50px;
+margin-right: 50px; 
+text-decoration: none;
+    
+    
+}
+
+.contenidor1{  
+text-align: center;
+font-size: 17px;
+color:#D4D5D4;
+margin-top: -10px;
+margin-left: 50px;
+margin-right: 50px; 
+}
+
+.contenidor2{ 
+font-size: 17px;
+color:#fff1a0;
+margin-top: -10px;
+margin-left: 50px;
+margin-right: 50px;      
+}
+
+.boto1{
+width: 500px;
+background-color: blueviolet;
+position: relative;
+top:0px;
+border:3px solid ;
+padding: 10px;
+text-align: center;
+margin: 0px auto;
+}
+
+.boto2{
+width: 500px;
+background-color: forestgreen;
+position: relative;
+top:20px;
+border:3px solid ;
+padding: 10px;
+text-align: center;
+margin: 0px auto;
+}
+
+.boto3{
+width: 500px;
+background-color: darkblue;
+position: relative;
+top:40px;
+border:3px solid ;
+padding: 10px;
+text-align: center;
+margin: 0px auto;
+}
+
+.boto4{
+width: 500px;
+background-color: peru;
+position: relative;
+top:60px;
+border:3px solid ;
+padding: 10px;
+text-align: center;
+margin: 0px auto;
+}
+
+.boto5{
+width: 500px;
+background-color: cadetblue;
+position: relative;
+top:80px;
+border:3px solid ;
+padding: 10px;
+text-align: center;
+margin: 0px auto;
+}
+
+.boto6{
+width: 500px;
+background-color: darkred;
+position: relative;
+top:100px;
+border:3px solid ;
+padding: 10px;
+text-align: center;
+margin: 0px auto;
+}
+
+.boto7{
+width: 500px;
+background-color: tan;
+position: relative;
+top:120px;
+border:3px solid ;
+padding: 10px;
+text-align: center;
+margin: 0px auto;
+}
