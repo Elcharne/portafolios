@@ -1,0 +1,178 @@
+/* Característiques de totes les pàgines .html */
+#identinici{
+    background-image: url("../media/fons_blur.jpg");
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*BOTONS*/
+
+/* Per a tots els botons, volem un color taronja */
+.botons{
+    background-color: #FFAF54;
+}
+
+/* Aquest és el botó per a l'index.html */
+#b_inici{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    height: 100px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color:#565656;
+}
+
+/* Per al botó inferior dret del portal.html */
+#b_portal{
+   font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    height: 60px;
+    width: 300px;
+    border: none;
+    color: #565656;
+    position: absolute;
+    left: 162px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+/* Per al botó inferior esquerra del portal.html */
+#b_credits{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    height: 60px;
+    width: 300px;
+    border: none;
+    color: #565656;
+    position: absolute;
+    left: 562px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+/* Per al botó inferior del mapa.html */
+#b_mapa{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    height: 60px;
+    width: 300px;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 362px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+/* Per als botons de cada joc en la llista del portal.html */
+.b_llista{
+    background-color: #FFAF54;
+    font-size: 70px;
+    color:#565656;
+    text-align: top;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height:100px;
+    width: 100px;
+    position:relative;
+    left:600px;
+    top:-96px;
+}
+
+/* Per al text "Videojocs" de l'index.html */
+#titol_inici_1{
+    color: #D4D5D4;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+/* Per al text "SHOOTER" de l'index.html */
+#titol_inici_2{
+    color: #D4D5D4;
+    font-size: 150px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+/* Per treure la línia que crea a l'enllaç del botó de la pàgina index.html */
+a{
+    text-decoration:none;
+}
+
+/* Característiques del text del portal.html */
+.info_jocs{
+    color:#D4D5D4;
+    margin-left:210px;
+}
+
+/* Característiques dels requadres de cada joc del portal.html */
+.jocs{
+    background-color:#565656;
+    height: 100px;
+    width: 700px;
+}
+
+/* Característiques de les imatges del portal.html */
+.imatge_llista{
+    position: absolute;
+}
+
+/* Característiques del text dels títols del portal.html */
+.l_titol{
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+/* Característiques del text del nom de les empreses del portal.html */
+.l_desenv{
+    font-size: 15px;
+}
+
+/* Característiques del div del portal.html que conté la llista dels jocs */
+#llista_jocs{
+    width: 700px;
+    height: 460px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -350px;
+}
+
+/* Característiques del text "Benvingut a la sala dels shooter" del portal.html */
+#titol_portal{
+    text-align: center;
+    color: #D4D5D4;
+    font-size: 50px;
+}
+
+/* Característiques per a la imatge del mapa.html */
+#imatge_mapa{
+    margin-left: -8px;
+    margin-top: -8px
+}
+
+/* Característiques dels logos dintre de les explicacions de cada joc */
+.logos_jocs{
+    display: block;
+    margin: auto;
+}
+
+/* Característiques del text de les explicacions de cada joc */
+.texto{
+    font-size: 17px;
+    color:#D4D5D4;
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-right: 50px;   
+}
+
+/* Característiques del text dels apartats "Llançaments" i "Jugabilitat" de cada joc */
+.cosa{
+    margin-bottom:-15px;
+    font-size: 25px;
+}
