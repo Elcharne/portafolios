@@ -1,0 +1,443 @@
+/*INDEX*/
+
+#Portada{
+    background-image: url(media/portada.jpg);
+}
+
+.Creditos{
+    background-image: url(media/btn_credits_OFF.png);
+    height: 100px;
+    width: 200px;
+    position: fixed;  
+}
+
+
+.Noms{
+    width: 250px;
+    height: 175px;
+    margin-top: -300px;
+    transition: 0.3s;
+    margin-left: 400px;
+    opacity: 0.6;
+    color: gold;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;   
+}
+
+
+.Creditos:hover{
+    background-image: url(media/btn_credits_ON.png); 
+    transform: scale(200px);
+}
+
+
+.Creditos:hover .Noms{
+    margin-top: 200px;   
+}
+
+
+#credit{
+     background-color: darkslategray;
+}
+/*Texto*/
+
+.Info_inicial{   
+    width: 1024px;
+    height: 768px;
+    font-size: 0px;
+    position: absolute;
+    transition: all 1s;
+}
+
+
+.Info_final{
+    background-color: yellow;
+    height: 170px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 300px;
+    font-size: 15px;
+    position: absolute;
+    transition: all 1s;
+    opacity: 0.5;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.cerrar{
+    background-color: red;
+    color: white;
+    height: 20px;
+    width: 20px;
+    margin-top: -170px;
+    margin-left: 390px;
+    font-size: 20px;
+    text-align: center;
+    transition: all 1s; 
+}
+
+.cerrar2{
+    background-color: red;
+    color: white;
+    height: 20px;
+    width: 20px;
+    margin-top: -140px;
+    margin-left: 390px;
+    font-size: 20px;
+    text-align: center;
+    transition: all 1s; 
+}
+
+.cerrar3{
+    background-color: red;
+    color: white;
+    height: 20px;
+    width: 20px;
+    margin-top: -130px;
+    margin-left: 390px;
+    font-size: 20px;
+    text-align: center;
+    transition: all 1s; 
+}
+
+/*FLECHAS*/
+
+.fleD{
+    background-image: url(media/btn_fletxa_OFF.png);
+    width: 150px;
+    height: 75px;
+    margin-top: 250px;
+    margin-left: 870px;
+    position: absolute;   
+}
+
+
+.fleD:hover {
+    background-image:  url(media/btn_fletxa_ON.png);
+    width: 150px;
+    height: 75px;
+    margin-top: 250px;
+    position: absolute;  
+}
+
+
+.fleI{
+    width: 150px;
+    height: 75px;
+    margin-top: 250px;
+    position: absolute;  
+}
+
+
+.fleI:hover {
+    background-image:  url(media/btn_fletxa_ON_REVERTIDA.png);
+    width: 150px;
+    height: 75px;
+    margin-top: 250px;
+    position: absolute;  
+}
+
+
+/*HIDROELECTRICA*/
+
+#hidro{
+    background-image: url(media/hidro.png);
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+@keyframes baixar {
+    0% {top: 360px; transform:scaleY(0);}
+    50%{top: 430px; transform:scaleY(1);}
+    100% {top: 490px; transform:scaleY(0);}
+}
+
+
+#ratlles1{
+    top: 410px;
+    width: 2px;
+    height: 100px;
+    background: #e9f9ff;
+    position :relative;
+    animation: baixar 1s infinite;
+    animation-timing-function:linear;
+    border-radius:15px;
+    position:absolute;
+    top:;
+    right:470px;
+}
+
+
+#ratlles2{
+    top: 420px;
+    width: 2px;
+    height: 100px;
+    background: #e9f9ff;
+    position :relative;
+    animation: baixar 1s infinite;
+    animation-timing-function:linear;
+    border-radius:15px;
+    position:absolute;
+    right:484px;
+    animation-delay:0.22s;
+}
+
+
+#ratlles3{ 
+    top:420px;
+    width: 2px;
+    height: 100px;
+    background: #e9f9ff;
+    position :relative;
+    animation: baixar 1s infinite;
+    animation-timing-function:linear;
+    border-radius:15px;
+    position:absolute;
+    right:477px;
+    animation-delay: 0.4s;
+}
+
+
+#ratlles4{ 
+    top: 400px;
+    width: 2px;
+    height: 100px;
+    background: #e9f9ff;
+    position :relative;
+    animation: baixar 1s infinite;
+    animation-timing-function:linear;
+    border-radius:15px;
+    position:absolute;
+    top:;
+    right:548px;
+}
+
+
+#ratlles5{ 
+    top: 410px;
+    width: 2px;
+    height: 100px;
+    background: #e9f9ff;
+    position :relative;
+    animation: baixar 1s infinite;
+    animation-timing-function:linear;
+    border-radius:15px;
+    position:absolute;
+    top:;
+    right:538px;
+    animation-delay: 0.7s;
+}
+
+
+#ratlles6{ 
+    top: 410px;
+    width: 2px;
+    height: 100px;
+    background: #e9f9ff;
+    position :relative;
+    animation: baixar 1s infinite;
+    animation-timing-function:linear;
+    border-radius:15px;
+    position:absolute;
+    top:;
+    right:530px;
+    animation-delay: 0.235s;
+}
+
+
+@keyframes Nubes {
+    0% {left: -500px;}
+    100% {left: 1200px;}
+}
+
+
+.Nube1{
+    width: 20%;
+    top: 20px;
+    animation: Nubes 1s infinite;
+    animation-timing-function:linear;
+    position:fixed;
+    animation-duration: 40s;
+}
+
+.Nube2{
+    width: 40%;
+    top: 60px;
+    left: -300px;
+    animation: Nubes 1s infinite;
+    animation-timing-function:linear;
+    animation-delay: 0.5s;
+    animation-duration: 30s;
+    position:fixed;
+}
+
+
+@keyframes burbujas {
+    0% {transform: scale(1); opacity: 0;}
+    10%{opacity: 1;}
+    100% {transform: scale(1.5); opacity: 0;}
+}
+
+.burbuja{
+    width: 13%;
+    top: 510px;
+    left: 450px;
+    animation: burbujas 1s infinite;
+    animation-timing-function:linear;
+    animation-duration: 5s;
+    position:fixed;
+}
+
+.burbuja2{
+    width: 13%;
+    top: 510px;
+    left: 450px;
+    animation: burbujas 1s infinite;
+    animation-timing-function:linear;
+    animation-delay: 2.5s;
+    animation-duration: 5s;
+    position:fixed;
+}
+
+.burbuja3{
+    width: 13%;
+    top: 510px;
+    left: 450px;
+    animation: burbujasw 1s infinite;
+    animation-timing-function:linear;
+    animation-delay: 2.5s;
+    animation-duration: 5s;
+    position:fixed;
+}
+
+/*EOLICA*/
+
+#Eolica{
+   background-image: url(media/eolic_fons.png);
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    
+}
+
+.Nube3{
+    width: 40%;
+    top: 60px;
+    left: -300px;
+    animation: Nubes 1s infinite;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-duration: 100s;
+    position:fixed;
+}
+
+.base{
+     width: 30%;
+    top: 180px;
+    left: 700px;
+    position:fixed;
+}
+
+.base2{
+     width: 35%;
+    top: 180px;
+    left: 300px;
+    position:fixed;
+}
+
+.base3{
+     width: 20%;
+    top: 290px;
+    left: 10px;
+    position:fixed;
+}
+
+@keyframes aspas {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.aspas{
+     width: 30%;
+    top: 203px;
+    left: 702px;
+    position:fixed;
+    animation: aspas 1s infinite;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-duration: 8s;
+}
+
+.aspas2{
+     width: 35%;
+    top: 204px;
+    left: 302px;
+    position:fixed;
+    animation: aspas 1s infinite;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-duration: 20s;
+}
+
+.aspas3{
+     width: 20%;
+    top: 306px;
+    left: 11px;
+    position:fixed;
+    animation: aspas 1s infinite;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-duration: 4s;
+}
+
+/*SOLAR*/
+
+#Solar{
+    background-image: url(media/solar_fons.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+/*Bombilla*/
+
+#bombilla{
+    background-image: url(media/bombeta_fons.png);
+}
+
+@keyframes luz {
+  0% {
+    background-image: url(media/bombeta_apagada.png);
+  }
+  100% {
+   background-image: url(media/bombeta_encesa.png);
+  }
+}
+
+.bomb {
+    width: 1024px;
+    height: 768px;
+  animation: luz 3s ease alternate infinite;
+}
+
+.Info_final2{
+    background-color: yellow;
+    height: 70px;
+    width: 400px;
+    margin-top: 350px;
+    margin-left: 400px;
+    font-size: 15px;
+    position: fixed;
+    opacity: 0.5;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    animation: luze 3s ease alternate infinite;
+    
+}
+
