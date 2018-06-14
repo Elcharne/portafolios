@@ -1,0 +1,786 @@
+/*
+------------------------------------------------------------------------------------
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::  DÍDAC BOSCH I ANTONIO CHARNECO  ::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+------------------------------------------------------------------------------------
+*/
+
+/* -- COLOR DE FONS -- */
+
+body{
+   background-color: #7c7c7c; 
+}
+
+
+
+/*
+-----------------------------------------------------------------*
+Capcelera                                                        *
+-----------------------------------------------------------------*
+*/
+
+/* -- BARRA GRAN GRISA -- */
+#header{
+    position: fixed;
+    height: 70px;
+    width: 1922px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    z-index: 10;
+    background-color: #4f4f4f;
+}
+
+/* -- LOGO -- */
+#logo{
+    cursor: pointer;
+    margin: 15px;
+    height: 40px;
+}
+
+#quadre_busca{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 34%;
+    width: 400px;
+    height: 35px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+/* -- BARRA DE CERCA -- */
+#fons_busca{
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    margin-top: 4px;
+    background-color: #636363;
+    border: none;
+}
+
+#busca{
+    font-family: 'Muli', sans-serif;
+    position: absolute;
+    font-size: 16px;
+    width: 490px;
+    height: 22px;
+    margin-top: 1px;
+    padding: 5px;
+    background-color: #636363;
+    border: none;
+    color: white;
+}
+
+#busca::placeholder {
+    color: #a0a0a0;
+    opacity: 1;
+}
+
+#searchButton{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 500px;
+    height: 35px;
+    
+}
+
+/* -- APARTAT PER A L'USUARI -- */
+#userExample{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 1525px;
+    width: 190px;
+}
+
+
+
+/*
+-----------------------------------------------------------------*
+Vídeo                                                            *
+-----------------------------------------------------------------*
+*/
+
+#vid{
+    margin-top: 100px;
+    margin-left: 190px;
+    width: 1000px;
+}
+
+
+
+/*
+-----------------------------------------------------------------*
+Botonera del vídeo                                               *
+-----------------------------------------------------------------*
+*/
+
+/* -- BARRA GENERAL DE LA BOTONERA -- */
+#botonera{
+    position: absolute;
+    opacity: 0;
+    width: 1000px;
+    height: 564px;
+    margin-top: -567px;
+    margin-left: 190px;
+    z-index: 1;
+}
+
+#botonera:hover{
+    opacity: 1;
+}
+
+#colorBotonera{
+    position: absolute;
+    background-color: #4f4f4f;
+    width: 1000px;
+    height: 50px;
+    opacity: 0.9;
+    margin-top: -50px;
+    z-index: -1;
+}
+
+/* -- BOTÓ DE PLAY I PAUSA -- */
+#play_pause{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    margin-top: 515px;
+    background-image: url(media/bPausa.png);
+}
+
+/* -- BOTÓ DEL VOLUM -- */
+#mutebtn{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: -40px;
+    background-image: url(media/bVolum.png);
+}
+
+/* -- BARRA DEL PROCÉS DE LA REPRODUCCIÓ -- */
+#seekslider{
+    -webkit-appearance: none !important;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -54px;
+    margin-left: 0px;
+    width: 100%;
+    height: 6px;
+    background-color: #FFB05A;
+}
+
+#seekslider::-webkit-slider-thumb{
+    -webkit-appearance: none !important;
+    cursor: pointer;
+    height:19px;
+    width:19px;
+    border-radius:100%;
+    background: #FFB05A;
+}
+
+/* -- BARRA DEL VOLUM -- */
+#volumeslider{
+    -webkit-appearance: none !important;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -19px;
+    margin-left: 100px;
+    width: 120px;
+    height: 4px;
+    background: #FFB05A;
+}
+
+#volumeslider::-webkit-slider-thumb{
+    -webkit-appearance: none !important;
+    cursor: pointer;
+    height:17px;
+    width:17px;
+    border-radius:100%;
+    background: #FFB05A;
+}
+
+/* -- INFORMACIÓ DE LA DURACIÓ DEL VÍDEO -- */
+#curtimetext{
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 320px;
+    font-family: 'Muli', sans-serif;
+    color: #FFB05A;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#septimetext{
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 379px;
+    font-family: 'Muli', sans-serif;
+    color: #FFB05A;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#durtimetext{
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 389px;
+    font-family: 'Muli', sans-serif;
+    color: #FFB05A;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+/* -- BOTÓ DE PANTALLA COMPLETA -- */
+#fullscreenbtn{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    margin-left: 949px;
+    margin-top: -42px;
+    background-image: url(media/bPantCompl.png);
+}
+
+/* -- BOTONS PER AVANÇAR I RETROCEDIR 10 SEGONS -- */
+#forwardbtn{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin-left: 272px;
+    margin-top: -35px;
+    background-image: url(media/bForward.png)
+}
+
+#backwardbtn{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin-left: 240px;
+    margin-top: -40px;
+    background-image: url(media/bBackward.png)
+}
+
+
+
+/*
+-----------------------------------------------------------------*
+Informació del vídeo                                             *
+-----------------------------------------------------------------*
+*/
+
+#InfoVid{
+    font-family: 'Muli', sans-serif;
+    color: white;
+    position: absolute;
+    height: 300px;
+    width: 1000px;
+    margin-left: 190px;
+    margin-top: -3px;
+}
+
+/* -- TÍTOL -- */
+
+#TitolVid{
+    position: absolute;
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+#separadorTitol{
+    position: absolute;
+    height: 2px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+/* -- LIKES I DISLIKES -- */
+
+#likedislike{
+    width: 1000px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+#likeimg{
+    cursor: pointer;
+}
+
+#likenum{
+    display: inline;
+    position: relative;
+    top: -10px;
+}
+
+#dislikeimg{
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+#dislikenum{
+    display: inline;
+    position: relative;
+    top: -10px;
+}
+
+/* -- COMPTADOR DE VISITES PER A index.html -- */
+#viewsimg{
+    position: absolute;
+    margin-left: 685px;
+    margin-top: ;
+}
+
+#viewsnum{
+    display: inline;
+    position: relative;
+    top: -10px;
+    left: 680px;
+}
+
+/* -- COMPTADOR DE VISITES PER A cities.html -- */
+#viewsimgCities{
+    position: absolute;
+    margin-left: 718px;
+}
+
+#viewsnumCities{
+    display: inline;
+    position: relative;
+    top: -10px;
+    left: 712px;
+}
+
+/* -- COMPTADOR DE VISITES PER A reddead.html -- */
+#viewsimgRed{
+    position: absolute;
+    margin-left: 695px;
+}
+
+#viewsnumRed{
+    display: inline;
+    position: relative;
+    top: -10px;
+    left: 690px;
+}
+
+/* -- COMPTADOR DE VISITES PER A h3h3.html -- */
+#viewsimgH3{
+    position: absolute;
+    margin-left: 637px;
+}
+
+#viewsnumH3{
+    display: inline;
+    position: relative;
+    top: -10px;
+    left: 630px;
+}
+
+/* -- COMPTADOR DE VISITES PER A phillips.html -- */
+#viewsimgPhill{
+    position: absolute;
+    margin-left: 706px;
+}
+
+#viewsnumPhill{
+    display: inline;
+    position: relative;
+    top: -10px;
+    left: 699px;
+}
+
+/* -- COMPTADOR DE VISITES PER A viral.html -- */
+#viewsimgViral{
+    position: absolute;
+    margin-left: 649px;
+}
+
+#viewsnumViral{
+    display: inline;
+    position: relative;
+    top: -10px;
+    left: 642px;
+}
+
+/* -- INFORMACIÓ DE L'AUTOR DEL VÍDEO -- */
+
+#viduser{
+    margin-top: 20px;
+    width: 1000px;
+    height: 90px;
+}
+
+#logoviduser{
+    cursor: pointer;
+}
+
+#nameviduser{
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color:white;
+    font-size: 25px;
+}
+
+#verified{
+    position: absolute;
+    top: 129px;
+    left: 305px;
+}
+
+#dayvid{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    color:white;
+    font-size: 16px;
+}
+
+/* -- BOTÓ DE SUSCRIPCIÓ -- */
+
+#subbtn{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    margin-top: -70px;
+    margin-left: 800px;
+}
+
+#subbtntext{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 15px;
+    font-size: 20px;
+    
+}
+
+#color_subbtntext{
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    background-color: #FFB05A;
+}
+
+#color_subbtnnum{
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    top: 139px;
+    left: 930px;
+    background-color: white;
+}
+
+#subbtnnum{
+    margin: auto;
+    color: #FFB05A;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+/*
+-----------------------------------------------------------------*
+Comentaris del vídeo                                             *
+-----------------------------------------------------------------*
+*/
+
+/* -- TOTA LA SECCIÓ -- */
+
+#commentsection{
+    margin-bottom: 30px;
+}
+
+/* -- TÍTOL DE COMENTARIS -- */
+
+#commenttitle{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+/* -- QUADRE PER A ESCRIURE UN COMENTARI -- */
+
+#writecomment::placeholder {
+    color: #cfcfcf;
+    opacity: 1;
+}
+
+#writecomment{
+    width: 980px;
+    height: 20px;
+    padding: 10px;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    border: none;
+    color: white;
+    background: #999999;
+    max-width: 980px;
+    max-height: 100px;
+    min-width: 980px;
+    min-height: 20px;
+}
+
+#sendcommentbtn{
+    position: absolute;
+    cursor: pointer;
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
+    width: 100px;
+    height: 30px;
+    color: #4f4f4f;
+    border: none;
+    background: #ffb05a;
+    margin-left: 900px;
+    
+}
+
+#cancelcommentbtn{
+    position: absolute;
+    cursor: pointer;
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
+    width: 90px;
+    height: 30px;
+    color: #ffb05a;
+    border: none;
+    background: #4f4f4f;
+    margin-left: 810px;
+    
+}
+
+/* -- SEPARACIÓ PER AL PRIMER COMENTARI -- */
+
+#sepfirstcom{
+    margin-top: 50px;
+}
+
+/* -- COMENTARI -- */
+
+.comment{
+    margin-top: 30px;
+}
+
+.logocomment{
+    cursor: pointer;
+}
+
+.namecomment{
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    top: -13px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.textcomment{
+    margin-top: -2px;
+}
+
+.comentsep{
+    width: 1000px;
+    height: 2px;
+    background-color: #ffb05a;
+}
+
+.answercomment{
+    cursor: pointer;
+    border: none;
+    background: #ffb05a;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    color: #4f4f4f;
+}
+
+/* -- BOTÓ PER A CARREGAR MÉS COMENTARIS -- */
+
+#loadmorebtn{
+    width: 240px;
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 400px;
+    cursor: pointer;
+    border: none;
+    background: #ffb05a;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    color: #4f4f4f;
+}
+
+
+
+/*
+-----------------------------------------------------------------*
+Anunci                                                           *
+-----------------------------------------------------------------*
+*/
+
+#add{
+    position: absolute;
+    top: 108px;
+    right: 350px;
+    cursor: pointer;
+}
+
+
+
+/*
+-----------------------------------------------------------------*
+Apartat de sugerències                                           *
+-----------------------------------------------------------------*
+*/
+
+/* -- TÍTOL DE SUGERÈNCIES -- */
+
+#relatedvideostext{
+    position: absolute;
+    top: 380px;
+    right: 550px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+#relatedsep{
+    position: absolute;
+    top: 425px;
+    right: 190px;
+    width: 460px;
+    height: 2px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+/* -- DIV PER A LIMITAR L'ESPAI PER CADA SUGERÈNCIA -- */
+.relatedvideos{
+    position: absolute;
+    right: 190px;
+    width: 460px;
+    height: 120px;
+}
+
+/* -- POSICIÓ 1R VÍDEO RELACIONAT -- */
+
+#related1{
+    top: 450px
+}
+
+/* -- POSICIÓ 2N VÍDEO RELACIONAT -- */
+
+#related2{
+    top: 590px
+}
+
+/* -- POSICIÓ 3R VÍDEO RELACIONAT -- */
+
+#related3{
+    top: 730px;
+}
+
+/* -- POSICIÓ 4T VÍDEO RELACIONAT -- */
+
+#related4{
+    top: 870px;
+}
+
+/* -- POSICIÓ 5È VÍDEO RELACIONAT -- */
+
+#related5{
+    top: 1010px;
+}
+
+/* -- MIDA DE LES IMATGES -- */
+
+.relthumbsize{
+    cursor: pointer;
+    width: 213px;
+    height: 120px;
+}
+
+/* -- QUADRE DE DURACIÓ DELS VÍDEOS -- */
+
+.relduration{
+    position: absolute;
+    text-align: center;
+    height: 22px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+    bottom: -11px;
+    right: 255px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+/* -- TÍTOL DELS VÍDEOS -- */
+
+.reltitle{
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: -16px;
+    height: 40px;
+    width: 235px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    color: white;
+    
+}
+
+/* -- USUARI DELS VÍDEOS -- */
+
+.reluser{
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    height: 20px;
+    width: 235px;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    color: #e6e6e6;
+    
+}
+
+/* -- VISUALITZACIONS DELS VÍDEOS -- */
+
+.relviews{
+    position: absolute;
+    right: 0px;
+    top: 63px;
+    height: 20px;
+    width: 235px;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    color: #e6e6e6;
+    
+}
+
+/* -- BOTÓ DE CARREGAR MÉS SUGERÈNCIES -- */
+
+#relloadmore{
+    width: 120px;
+    height: 35px;
+    margin-top: 480px;
+    margin-left: 1400px;
+    cursor: pointer;
+    border: none;
+    background: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    color: #7c7c7c;
+}
