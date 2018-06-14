@@ -91,13 +91,14 @@ background-color: grey;
     transform: rotate(-20deg);
 }
 .Html{
- background-color: blue;
     width: 150px;
     height: 0px;
     font-size: 0px;
     margin-top: 105%;
-     transition: 1s;
+    transition: 1s;
     text-align: center;
+    color: aliceblue;
+    background-color: gray;
 }
 .Programacion_Html:hover .Html{
     height: 50px;
@@ -233,13 +234,14 @@ background-color: grey;
     transform: rotate(20deg);
 }
 .Processing{
- background-color: blue;
     width: 150px;
     height: 0px;
     font-size: 0px;
     margin-top: 105%;
      transition: 1s;
     text-align: center;
+    color: aliceblue;
+    background-color: gray;
 }
 .Programacion_Procesing:hover .Processing{
     height: 50px;
@@ -284,17 +286,19 @@ margin-left: 25%;
     transform: rotate(-12deg);
 }
 .DosD{
- background-color: blue;
     width: 150px;
     height: 0px;
     font-size: 0px;
     margin-top: 105%;
      transition: 1s;
     text-align: center;
+    color: aliceblue;
+    background-color: gray;
 }
 .Animacion_2D:hover .DosD{
-    height: 50px;
+     height: 40px;
     font-size: 20px;
+    padding-top: 10px;
     
 }
 .Animacion_2D:hover{
@@ -341,17 +345,20 @@ margin-left: 25%;
     transform: rotate(15deg);
 }
 .TresD{
- background-color: blue;
     width: 150px;
     height: 0px;
     font-size: 0px;
     margin-top: 105%;
      transition: 1s;
     text-align: center;
+    color: aliceblue;
+    background-color: gray;
+    
 }
 .Animacion_3D:hover .TresD{
-    height: 50px;
+    height: 40px;
     font-size: 20px;
+    padding-top: 10px;
   
 }
 .Animacion_3D:hover{
@@ -377,17 +384,21 @@ margin-left: 25%;
     transform: rotate(5deg);
 }
 .Ilumi{
- background-color: white;
+ 
     width: 150px;
     height: 0px;
     font-size: 0px;
     margin-top: 105%;
      transition: 1s;
     text-align: center;
+    color: aliceblue;
+    background-color: gray;
 }
 .Iluminacion:hover .Ilumi{
-    height: 50px;
-    font-size: 20px;}
+    height: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+}
 .Iluminacion:hover{
     animation: Ilumi 1.5s ease alternate infinite;
     animation-timing-function:linear;
@@ -654,17 +665,19 @@ margin-left: 25%;
     transform: rotate(-5deg);
 }
 .Skel{
- background-color: blue;
     width: 150px;
     height: 0px;
     font-size: 0px;
     margin-top: 105%;
      transition: 1s;
     text-align: center;
+    color: aliceblue;
+    background-color: gray;
 }
 .Rigging:hover .Skel{
-    height: 50px;
+     height: 40px;
     font-size: 20px;
+    padding-top: 10px;
     
 }
 .Rigging:hover{
@@ -737,17 +750,19 @@ position: absolute;
     transform: rotate(17deg);
 }
 .Mode{
- background-color: blue;
     width: 150px;
     height: 0px;
     font-size: 0px;
     margin-top: 105%;
-     transition: 1s;
+    transition: 1s;
     text-align: center;
+    color: aliceblue;
+    background-color: gray;
 }
 .Modelaje:hover .Mode{
-    height: 50px;
+     height: 40px;
     font-size: 20px;
+    padding-top: 10px;
 }
 .Modelaje:hover{
     animation: Mode 1.5s ease alternate infinite;
@@ -871,17 +886,19 @@ position: absolute;
     transform: rotate(-13deg);
 }
 .Texture{
- background-color: blue;
     width: 150px;
     height: 0px;
     font-size: 0px;
     margin-top: 105%;
-     transition: 1s;
+    transition: 1s;
     text-align: center;
+    color: aliceblue;
+    background-color: gray;
 }
 .Texturizacion:hover .Texture{
-    height: 50px;
+     height: 40px;
     font-size: 20px;
+    padding-top: 10px;
 }
 .Texturizacion:hover{
     animation: Texture 1.5s ease alternate infinite;
@@ -1038,17 +1055,19 @@ position: absolute;
     transform: rotate(-15deg);
 }
 .Photo{
- background-color: blue;
     width: 150px;
     height: 0px;
     font-size: 0px;
     margin-top: 105%;
-     transition: 1s;
+    transition: 1s;
     text-align: center;
+    color: aliceblue;
+    background-color: gray;
 }
 .Photoshop:hover .Photo{
-    height: 50px;
+     height: 40px;
     font-size: 20px;
+    padding-top: 10px;
 }
 .Photoshop:hover{
     animation: pho 1.5s ease alternate infinite;
@@ -1350,17 +1369,19 @@ position: absolute;
     transform: rotate(-1deg);
 }
 .Dibujo{
- background-color: blue;
     width: 150px;
     height: 0px;
     font-size: 0px;
     margin-top: 105%;
     transition: 1s;
     text-align: center;
+    color: aliceblue;
+    background-color: gray;
 }
 .Dibuix:hover .Dibujo{
-    height: 50px;
+     height: 40px;
     font-size: 20px;
+    padding-top: 10px;
 }
 .Dibuix:hover{
     animation: dibu 1.5s ease alternate infinite;
@@ -1586,7 +1607,4 @@ position: absolute;
     transition: 1s;
     padding-top: 10px;
 }
-
-
-
 
